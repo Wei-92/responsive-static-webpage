@@ -2,7 +2,7 @@
 ------------
 Content		all CSS files
 fonts		precompiled font assets from Bootstrap source code
-images		Image files
+images		Image files, my own design, feel free to use it :)
 Scripts		1) library -- jQuery plugin and bootstrap precompiled javascript files 
 		2) customization -- my own javascript file for click / responsive onload events
 default.html	
