@@ -1,0 +1,63 @@
+﻿/*--=========================================================
+    reference: https://www.ibm.com/developerworks/community/blogs/bobleah/entry/code_example_of_responsive_web_design_using_css3_media_queries13?lang=en
+=========================================================--*/
+
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 27px;
+    } 
+    .close-btn {
+    	width: 30px;
+    	height: 30px;
+        background: url(../images/close_sm.png);
+        background-size: cover;
+    }
+    
+    .image-container {
+        height: 500px;
+        position: relative;
+    }    
+    .content-container {
+        left: 0;
+    }    
+    .main-heading {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 768px) {    
+    h1 {
+        font-size: 36px;
+    }  
+    h2 {
+        font-size: 18px;
+    }
+    .heading h3 {
+        font-size: 13px;
+    }   
+    .main-heading h1:after {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .intro-content h1 {
+        font-size: 30px;
+    }
+    .intro-content h2 {
+        font-size: 20px;
+    }
+    .main-heading {
+        padding-left: 20px;
+    }
+    .main-heading h1:after {
+        height: 3px;
+    }
+    .image-container {
+        height: 300px;
+    }
+}

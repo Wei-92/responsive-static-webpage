@@ -1,0 +1,263 @@
+﻿/*fonts imported from Google*/
+@import url(http://fonts.googleapis.com/css?family=Hind:300,500);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic);
+
+/* general display style settings */
+p,
+h1,
+h2,
+h3 {
+    color: #343333;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Hind', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.42;
+}
+
+h1 {
+    font-size: 63px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h2.small-heading {
+    padding: 60px 0 20px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/*--===============
+        Home Page
+    ================--*/
+
+/*(1) the whole homepage */
+.home-page {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+/*(2) left introduction section */
+.introduction {
+    float: left;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.introduction img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1a1b23;
+}
+
+.intro-content {
+    position: relative;
+    z-index: 10;
+    top: 50%;
+    opacity: 0.9;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.intro-content h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.intro-content h1 span,
+.main-heading h1 span {
+    color: #FFC300;
+}
+
+.intro-content h2 {
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/*(2) right navigation menu */
+.menu {
+    float: left;
+    padding: 0;
+    position: relative;
+}
+
+.menu > div {
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.heading {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.heading i {
+    background: rgba(256, 256, 256, 0.2);
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto auto 10px;
+    text-align: center;
+    box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.2);
+    width: 60px;
+    -webkir-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.menu > div:hover .heading i {
+    box-shadow: 0 0 0 50px rgba(256, 256, 256, 0);
+}
+
+.heading h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 25px;
+    opacity: 0.9;
+}
+
+.heading h2 span {
+    color: #FFC300;
+}
+
+.heading h3 {
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 16px;
+    opacity: 0.9;
+    font-style: italic;
+    font-weight: 300;
+}
+
+/*(3) close button */
+.close-btn {
+    background: url(../images/close.png);
+    z-index: 1000;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    right: 3%;
+    top: 30px;
+    background-size: cover;
+    visibility:hidden;
+}
+
+/*(4) sub-section content */
+.profile-page,
+.resume-page,
+.portfolio-page,
+.contact-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.image-container {
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-heading {
+    position: relative;
+    top: 50%;
+    padding-left: 50px;
+    -webkit-transform: translateY(200%);
+    -moz-transform: translateY(200%);
+    -ms-transform: translateY(200%);
+    -o-transform: translateY(200%);
+    transform: translateY(200%);
+}
+
+.main-heading h1 {
+    color: #fff;
+    position: relative;
+    text-align: left;
+}
+
+.main-heading h1:after {
+    background-color: #FFC300;
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 400px;
+    height: 6px;
+}
+
+.content-container {
+    left: 41.666%;
+    position: relative;
+    padding: 0;
+    background: #f5f5f5;
+}
+
+.profile-page .image-container,
+.resume-page .image-container,
+.portfolio-page .image-container,
+.contact-page .image-container {
+    background-size: cover;
+    background-position: bottom;
+}
