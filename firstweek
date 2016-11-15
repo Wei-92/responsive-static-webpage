@@ -1,0 +1,229 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+    rel="stylesheet" type="text/css">
+    <style>
+      #free-form {
+      	background-image: url("http://l2.yimg.com/bt/api/res/1.2/finQHbchQlxIHQv7xb4GMA--/YXBwaWQ9eW5ld3M7Zmk9ZmlsbDtoPTE0MDY7cHlvZmY9MDtxPTc1O3NtPTE7dz04OTU-/http://l.yimg.com/os/publish-images/music/2013-11-25/effb9da0-9ec8-4f22-a389-6f238c3f0af3_187596325.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .bottom_ul { list-style-type: none; margin-bottom: 0px; }
+      .bottom_ul li { float: left; line-height: 40px; }
+      .bottom_ul li:after { content: "|"; color: #FFF; margin-right: 8px; margin-left: 8px; }
+      .bottom_ul li a { color: #FFF;  font-size: 22px; }
+      .bottom_ul.leftpart { float: left; }
+      .bottom_ul.rightpart { float: right; }
+      #free-topbar {
+      	height: 107px;
+        background-color: #27313f;
+      }
+      #free-footbar {
+      	height: 201px;
+        background-color: #27313f;
+      }
+      #free-copyright {
+      	font-size: 12pt;
+        font-family: Arial;
+        color: #4f555f;
+      }
+      body { padding-top: 70px; }
+    </style>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" id="free-topbar">
+      <div class="container-fluid">
+        <div class="navbar-header navbar-left">
+          <a class="navbar-brand"><img height="20" alt="Brand" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAA81BMVEX///9VPnxWPXxWPXxWPXxWPXxWPXxWPXz///9hSYT6+vuFc6BXPn37+vz8+/z9/f2LeqWMe6aOfqiTg6uXiK5bQ4BZQX9iS4VdRYFdRYJfSINuWI5vWY9xXJF0YJR3Y5Z4ZZd5ZZd6Z5h9apq0qcW1qsW1q8a6sMqpnLyrn76tocCvpMGwpMJoUoprVYxeRoJjS4abjLGilLemmbrDutDFvdLPx9nX0eDa1OLb1uPd1+Td2OXe2eXh3Ofj3+nk4Orl4evp5u7u7PLv7fPx7/T08vb08/f19Pf29Pj39vn6+fuEcZ9YP35aQn/8/P1ZQH5fR4PINAOdAAAAB3RSTlMAIWWOw/P002ipnAAAAPhJREFUeF6NldWOhEAUBRvtRsfdfd3d3e3/v2ZPmGSWZNPDqScqqaSBSy4CGJbtSi2ubRkiwXRkBo6ZdJIApeEwoWMIS1JYwuZCW7hc6ApJkgrr+T/eW1V9uKXS5I5GXAjW2VAV9KFfSfgJpk+w4yXhwoqwl5AIGwp4RPgdK3XNHD2ETYiwe6nUa18f5jYSxle4vulw7/EtoCdzvqkPv3bn7M0eYbc7xFPXzqCrRCgH0Hsm/IjgTSb04W0i7EGjz+xw+wR6oZ1MnJ9TWrtToEx+4QfcZJ5X6tnhw+nhvqebdVhZUJX/oFcKvaTotUcvUnY188ue/n38AunzPPE8yg7bAAAAAElFTkSuQmCC"></a>
+        </div>
+        <p class="navbar-text navbar-right" style="margin-right:auto">+852 53 924 924</p>
+      </div>
+    </nav>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>專業教學管理系統</h1>
+            <p contenteditable="true">有效提升營運效率</p>
+            <img src="http://eminem.com.cn/wp-content/uploads/2015/11/o-EMINEM-facebook-2.jpg"
+            class="img-responsive">
+          </div>
+          <div class="col-md-6" id="free-form">
+            <h1 class="text-center">Class Mind 30天免費試用</h1>
+            <h2 class="text-center">請填寫以下資料</h2>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <div class="col-sm-2">
+                  <label for="inputEmail3" class="control-label">Email</label>
+                </div>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-2">
+                  <label for="inputPassword3" class="control-label">Password</label>
+                </div>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">Remember me</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <button type="submit" class="btn btn-default">Sign in</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">全新教學管理系統，適合學前班、興趣班及補習中心使用 多項功能助您輕鬆管理校務</h1>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 text-center">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">一站式校務管理</h3>
+            <p class="text-left">雲端處理學生報名、繳費、 課堂管理等日常校務</p>
+          </div>
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">老師App端</h3>
+            <p class="text-left">輔助老師課堂教學, 如電子點名、佈置作業</p>
+          </div>
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">家長App端</h3>
+            <p class="text-left">為家長提供自動繳費提醒， 查看學生課堂表現， 讓家長更放心</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">課堂編排</h3>
+            <p class="text-left">以日程表管理及編制課程, 輕鬆安排老師上課及處理 調課</p>
+          </div>
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">即時廣播通知</h3>
+            <p class="text-left">發送即時信息推送，隨時 聯絡家長, 加強家校聯繫, 增加培訓學校透明度</p>
+          </div>
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">簡易操作</h3>
+            <p class="text-left">人性化界面設計， 功能及資訊一目了然</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">市場招生</h3>
+            <p class="text-left">設定優惠，以各種優惠 計劃提高招生率</p>
+          </div>
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">數據報告</h3>
+            <p class="text-left">提供各類清晰的報告， 了解校內營運情況， 多維分析市場動態</p>
+          </div>
+          <div class="col-md-1">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="img-circle img-responsive">
+          </div>
+          <div class="col-md-3">
+            <h3 class="text-left">保障私隱安全</h3>
+            <p class="text-left">系統會對所有數據進行加密 處理，還有多種權限設置， 保障資料安全</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="section" id="free-footbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="bottom_ul leftpart list-unstyled">
+              <li>
+                <a href="#">繁</a>
+              </li>
+              <li>
+                <a href="#">簡</a>
+              </li>
+              <li>
+                <a href="#">ENG</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="bottom_ul rightpart">
+              <li>
+                <a href="#">產品</a>
+              </li>
+              <li>
+                <a href="#">功能</a>
+              </li>
+              <li>
+                <a href="#">關於我們</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p id="free-copyright">© cherrypicks learning. All Rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+</html>
